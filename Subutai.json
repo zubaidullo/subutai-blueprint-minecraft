@@ -12,7 +12,7 @@
             "size": "${containerSize}",
             "port-mapping": [
                 {
-                    "protocol": "tcp",
+                    "protocol": "https",
                     "domain": "${domain}",
                     "internal-port": "25565",
                     "external-port": "${port}"
